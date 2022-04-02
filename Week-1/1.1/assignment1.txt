@@ -1,0 +1,77 @@
+Websites are collection files such as HTML, CSS, JS, images etc. This files link together to display as a beautiful web page. 
+In order to display it to everyone, one cannot store this files in his/her local system, there should be a server that stores
+all this files, and display the website to everyone at anytime. So when user enters domain in the browser, we can consider the
+domain as the name we save our contact, we know the URL, we hit it, but in background it redirects to its DNS. DNS helps to
+find servers over the internet.
+
+Let's take an example of the website https://amazon.com/orders . Let’s divide this URL, first comes the https, which stands
+for hypertext transfer protocol secure. Protocol is nothing but set of rules that has to be followed, this scheme tells the
+browser to make a connection to server using transport layer security. TLS is an encryption protocol to secure communications
+over the Internet. The next thing comes is the domain amazon.com It is the memorable address and points to a specific server’s
+IP address. And the last part is the additional path where we want to go to. orders may be another page of same site we would
+like to open. After we have typed the URL into your browser and pressed enter, the browser needs to figure out which server on
+the Internet to connect to.  To do that, it needs to look up the IP address of the server hosting the website using the domain
+you typed in. It does this using a DNS lookup. Once the browser gets the DNS record with the IP address, it’s time for it to
+find the server on the Internet and establish a connection. Browser initiates TCP connection with the server, and then browser
+has a connection to the server, it follows the rules of communication for the HTTP(s) protocol. It starts with the browser
+sending an HTTP request to the server to request the contents of the page. The HTTP request contains a request line, headers,
+and a body. The request line contains information that the server can use to determine what the client wants to do. The server
+takes the request and based on the info in the request line, headers, and body, decides how to process the request. The browser
+considers a status code in the 200s to be successful. The response was 200, so the browser knows to render the response. Once
+the browser has received the response from the server, it inspects the response headers for information on how to render the
+resource.
+
+Main functionality of browser is to present the web resourse, like html document, image or any other document by requesting the
+server. The location of the resource is specified by the user using a URI.The way the browser interprets and displays HTML
+files is specified in the HTML and CSS specifications. These specifications are maintained by the W3C (World Wide Web Consortium)
+organization, which is the standards organization for the web. 
+
+Some of the high level components of browser are 
+1. User interface: this includes the address bar, back/forward button, bookmarking menu, etc
+2. The browser engine: marshals actions between the UI and the rendering engine.
+3. The rendering engine : responsible for displaying requested content. For example if the requested content is HTML, the rendering
+engine parses HTML and CSS, and displays the parsed content on the screen.
+4. Networking: for network calls such as HTTP requests, using different implementations for different platform behind a
+platform-independent interface.
+5. UI backend: used for drawing basic widgets like combo boxes and windows. This backend exposes a generic interface that is not
+platform specific. Underneath it uses operating system user interface methods.
+6. JavaScript interpreter. Used to parse and execute JavaScript code.
+7. Data storage. This is a persistence layer. The browser may need to save all sorts of data locally, such as cookies. 
+Browsers also support storage mechanisms such as localStorage, IndexedDB, WebSQL and FileSystem.
+
+A parser is a compiler or interpreter component that breaks data into smaller elements for easy translation into another language.
+A parser takes input in the form of a sequence of tokens, interactive commands, or program instructions and breaks them up into parts
+that can be used by other components in programming.
+
+A parser usually checks all data provided to ensure it is sufficient to build a data structure in the form of a parse tree or an abstract syntax tree.
+
+In order for the code written in human-readable form to be understood by a machine, it must be converted into machine language. This task is usually
+performed by a translator (interpreter or compiler). The parser is commonly used as a component of the translator that organizes linear text in a
+structure that can be easily manipulated (parse tree). To do so, it follows a set of defined rules called “grammar”.
+
+The overall process of parsing involves three stages:
+
+Lexical Analysis: A lexical analyzer is used to produce tokens from a stream of input string characters, which are broken into small components to
+form meaningful expressions. A token is the smallest unit in a programming language that possesses some meaning (such as +, -, *, “function”, or “new” in JavaScript).
+
+Syntactic Analysis: Checks whether the generated tokens form a meaningful expression. This makes use of a context-free grammar that defines algorithmic
+procedures for components. These work to form an expression and define the particular order in which tokens must be placed.
+
+Semantic Parsing: The final parsing stage in which the meaning and implications of the validated expression are determined and necessary actions are taken.
+
+A parser's main purpose is to determine if input data may be derived from the start symbol of the grammar. If yes, then in what ways can this input data be derived? This is achieved as follows:
+
+Top-Down Parsing: Involves searching a parse tree to find the left-most derivations of an input stream by using a top-down expansion. Parsing begins with the start
+symbol which is transformed into the input symbol until all symbols are translated and a parse tree for an input string is constructed. Examples include LL parsers and recursive-descent parsers.
+Top-down parsing is also called predictive parsing or recursive parsing.
+
+Bottom-Up Parsing: Involves rewriting the input back to the start symbol. It acts in reverse by tracing out the rightmost derivation of a string until the parse tree is constructed up to the
+start symbol This type of parsing is also known as shift-reduce parsing. One example is an LR parser.
+
+The order of processing scripts and style sheets
+The model of the web is synchronous. Authors expect scripts to be parsed and executed immediately when the parser reaches
+a <script> tag. The parsing of the document halts until the script has been executed. If the script is external then the 
+resource must first be fetched from the network–this is also done synchronously, and parsing halts until the resource is fetched.
+This was the model for many years and is also specified in HTML4 and 5 specifications. Authors can add the "defer" attribute to a
+script, in which case it will not halt document parsing and will execute after the document is parsed. HTML5 adds an option to mark
+the script as asynchronous so it will be parsed and executed by a different thread.
