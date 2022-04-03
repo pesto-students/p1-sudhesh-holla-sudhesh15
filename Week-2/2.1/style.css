@@ -1,0 +1,59 @@
+.heading p{
+  text-align: center;
+  font-size: 2rem; 
+  font-weight: bold;
+}
+.subheading{
+  font-weight: bold;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 1rem;
+  text-align: justify;
+}
+
+.flex-item-left {
+  padding: 10px;
+  flex: 50%;
+}
+
+.flex-item-right {
+  padding: 10px;
+  flex: 50%;
+}
+
+@media (max-width: 800px) {
+  .flex-container {
+    flex-direction: column;
+  }
+}
+
+.form-section{
+  padding: 10px;
+}
+
+button{
+  background-color: #066aff;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+button:hover{
+  background-color: #7bb0ff;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Assignment 2.2</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="heading">
+        <p>Assignment 2.1 on CSS.</p>
+      </div>
+      <div class="flex-container">
+        <div class="flex-item-left">
+          <p class="subheading">What is Lorem Ipsum?</p>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+          </p>
+        <img src="1.png" height="50%" width="75%">
+        </div>
+        <div class="flex-item-right">
+          <p class="subheading">Why do we use it?</p>
+          <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like). 
+          </p>
+          <p class="subheading">Why do we use it?</p>
+          <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+          </p>
+          <p class="subheading">Why do we use it?</p>
+          <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+          </p>
+        </div>
+      </div>
+      <div class="form-section">
+        <form>
+          <label>Title:</label>            
+          <input type = "radio" name="title">
+          <label for = "mr">Mr</label>
+          <input type = "radio" name="title">
+          <label for = "mrs">Mrs</label>
+          <input type = "radio" name="title">
+          <label for = "miss">Miss</label></br></br>
+          <label for="fname">First Name:</label>
+          <input type="text" id="fname" placeholder="FIRST NAME" required></br></br>
+          <label for="lname">Last Name:</label>
+          <input type="text" id="lname" placeholder="LAST NAME" required></br></br>
+          <label for="email">Email:</label>
+          <input type="email" id="email" placeholder="Email" required></br></br>
+          <label for="phone">Phone Number:</label>
+          <input type="tel" id="phone" placeholder="Phone Number" pattern="[0-9]{10}" required></br></br>
+          <label for="password">Password:</label>
+          <input type="password" id="password" placeholder="PASSWORD" required></br></br>
+          <label for="passwordRepeat">Confirm your Password:</label>
+          <input type="password" id="passwordRepeat" placeholder="PASSWORD" required></br></br>
+          <label for="country">Country:</label>
+          <select id="country" name="country" required>
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+            <option value="Australia">Australia</option>
+            <option value="Japan">Japan</option>
+          </select><br><br>
+          <input type="checkbox" id="tems" name="terms" value="" required>
+          <label for="terms">I agree to <a href="facebook.com">terms and conditions</a></label><br><br>
+          <button type="submit">Sign Up</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
