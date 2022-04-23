@@ -1,0 +1,33 @@
+SMART BOARD
+Smarto's smart tool to revolutionize the mode of teaching.
+*April 2nd, 2022*. Smarto is excited to announce its brand new product for future of education. Due to on-going pandemic teaching 
+has become so difficult over a online meet, there should be some tool which is easy to use, affordable and efficient to bring 
+change in the way of teaching. With this vision Smarto came up this product "SMART BOARD". Smart board helps teachers to 
+write to teach in a unique way. Pre-pandemic teacher used to use balck board with chalk, and in online mode we share PDF. But the 
+effective way is to write on board. Here where Smart Board plays its role. Smart Board provides White screen with different shades of color
+to write on white board. And the permission to write on this board is only accessible to teacher, also if teacher can provide acdess to their students
+if they have any doubt and ask over the board. This board also comes with saving all the data in cloud, as so whenever if anyone wants
+go back to previous lecture can go back to it. This the most effiecient way of recording previous notes, and also the way of teaching.
+
+“We are excited to help our customers become much more efficient,’’ said Will Canis-La Trans, VP of Product at Smarto.
+
+"Smart tool helped my students to understand the concepts clearly, get doubts cleared easily", said Robert smith, Principal of Austin School.
+
+Login to your LMS account start teaching, you will be easily able to navigate to smart board that is integrated.
+
+FAQ's
+
+1. How do I start using Smart Board ?
+  "SMART BOARD" is integrated with your LMS portal so that it’s very easy to navigate.
+2. Whether Smart board is free feature ?
+   "SMART BOARD" comes with 30 days free trail, later to continue the with feature with just 499 dollars/month.
+3. How long the data will be stored in cloud ?
+   We store your class recording for 1 year, however you can upgrade the plan to save data for further more dates.
+
+
+Internal FAQ's
+
+1. What will customers like most about Smart Board ?
+   Unique featues like storing slides, real time teaching that make you feel you are in offline class.
+2. What are the privacy concerns with this product?
+   privacy is our primary concern, we will 2 factor autentication to access LMS, so that all our internal feature is protected.
