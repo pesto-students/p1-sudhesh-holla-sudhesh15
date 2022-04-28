@@ -1,0 +1,7 @@
+Consider 4 roads that intersects as shown in th figure. Let all road be a one-way road. The road number is displayed in the diagram
+for better explaining here. So when user wants to go from road 1 to road 3 its straight forward he has to wait for signal to get 
+green and move on. And also same applies for people in road 3 to road 1. If someone wants to go from road 3 to road 2 he can go 
+without waiting for the signal and cross the divider join road 2. If he want to go to road 4, first he needs to go to road 1 cross 
+the divider than join road 4. 
+This approaches is little time consuming but better efficient when traffic is high since this is more systematic. Even padestian lane 
+is provided to cross when signal turns red.
